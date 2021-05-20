@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -16,7 +15,6 @@ public class LevelChanger : MonoBehaviour
 
     void TaskOnClick()
     {
-        
         SceneManager.LoadScene(EventSystem.current.currentSelectedGameObject.name);
     }
 }
