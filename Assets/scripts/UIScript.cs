@@ -52,8 +52,8 @@ public class UIScript : MonoBehaviour
     private void OnDragDelegate(PointerEventData data)
     {
         // Récupère l'event de drag
-        _x += data.delta.x;
-        _y += data.delta.y;
+        _x += (-data.delta.x / 10);
+        _y += (data.delta.y / 100);
     }
 
     private void LateUpdate()
