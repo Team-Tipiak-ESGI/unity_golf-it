@@ -121,8 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootButton: {fileID: 1871529663904995909}
   powerSlider: {fileID: 1871529664498034719}
-  ball: {fileID: 1545408236422888353, guid: 5d1051bd86e836f468ad38a930af36d1, type: 3}
-  basePower: 100
+  basePower: 1000
   pauseButton: {fileID: 1871529664894976745}
   restartButton: {fileID: 1871529663886111072}
   moveButton: {fileID: 1871529664077344410}
